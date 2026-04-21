@@ -7,4 +7,5 @@ Dari milestone 2 ini saya mempelajari kalau server tidak cukup hanya menerima re
 
 Saya juga jadi melihat kalau bagian seperti status line dan Content-Length punya peran penting supaya browser bisa membaca isi balasan dengan benar. Setelah perubahan ini di-run, browser sudah tidak hanya menampilkan error lagi dan menampilkan halaman HTML sederhana. Milestone ini penting karena membuat alur komunikasi antara server dan browser jadi lebih jelas sebelum masuk ke tahap validasi request dan penanganan halaman yang berbeda.
 
-3. 
+3. [Commit 3 screenshot](images/commit3.png)
+Dari milestone 3 saya belajar kalau server harus memeriksa request yang masuk kemudian harus memberikan response yang sesuai. Setelah pengerjaan milestone ini, program mengecek apakah browser meminta path "/" atau meminta halaman lain, misalkan "/foo". Jika request yang dikirim sesuai, maka server akan mengembalikan halaman utama, sedangkan jika request yang dikirimkan berbeda, maka server akan me-return response 404 beserta halaman error. Pada tahap ini server sudah memiliki logika untuk membedakan request yang sesuai dan yang tidak sesuai. Menurut saya, milestone ini penting karena membuat server mulai bisa menangani request dengan lebih tepat dan menjadi langkah awal untuk memahami routing pada web server.
